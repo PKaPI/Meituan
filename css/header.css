@@ -1,0 +1,95 @@
+/*头部css样式，除登录和注册页面的通用头部*/
+
+/*顶部导航*/
+.top {width: 100%; height: 29px; background: #f9f9f9; border-top: 1px solid #eee; border-bottom: 1px solid #eee; overflow: visible;}
+
+.basic li{float: left; font-size: 12px; margin-right: 15px; line-height: 29px;}
+.basic li a {color: #666;}
+
+.basic li.collect a {background: url(../images/star.png) no-repeat 0 2px; padding-left: 15px;}
+.basic li.collect a:hover {background: url(../images/star-hover.png) no-repeat 0 2px ; padding-left: 15px;}
+.basic .login-btn {margin-right: 10px;}
+.basic .reg-btn {border-right: 1px solid #ddd; padding-right: 15px;}
+
+.basic .mobile { padding: 0 20px 0 10px;}
+.basic .icon-mobile {display: inline-block; width: 9px; height: 13px; background: url(../images/login-sp.png) no-repeat -334px -141px; position: relative; top: 2px;}
+.basic .mobile:hover .icon-mobile{background-position: -334px -165px;}
+.basic .mobile em {}
+.basic .mobile {display: inline-block; position: relative;}
+.basic .mobile .arrow {width: 0; height: 0; border: 3px dashed transparent; border-top: 3px solid #999; position: absolute; top:14px; right: 8px;}
+.basic .mobile:hover .arrow {border: 3px dashed transparent; border-bottom: 3px solid #2bb8aa; top: 10px;}
+
+.user li {float: left; position: relative; line-height: 30px;}
+.user .toggle-menu {position: absolute; white-space: nowrap; right: 0; top: 29px; border: 1px solid #ddd; background: #fff; z-index: 90; padding: 15px 12px; display:none;}
+.user a {color: #666; font-size: 12px;}
+.user a:hover {color: #2bb8aa; text-decoration: underline;}
+
+.user .dropdown {display:inline-block; position: relative; padding: 0 20px 0 12px; z-index: 100; border: 1px solid transparent;border-top: none; border-bottom: 0;}
+.user .dropdown .tri-icon {width: 0; height: 0; border: 3px dashed transparent; border-top: 3px solid #999; position: absolute; top:14px; right: 8px;}
+
+/*.user .dropdown:hover .tri-icon {border: 3px dashed transparent; border-bottom: 3px solid #2bb8aa; top: 11px;} */
+.user .dropdown .seprate {display: inline-block; width: 1px ; background: #ddd; height: 12px; position: absolute; right: -2px; top: 10px;}
+.user .toggle-menu li {line-height: 25px;}
+.user .dropdown:hover .seprate {display: none;}
+.user .dropdown-hover {background: #fff; border: 1px solid #ddd; border-top: none; border-bottom: 0; text-decoration: none; color: #2bb8aa;}
+.user .dropdown-hover .tri-icon {border: 3px dashed transparent; border-bottom: 3px solid #2bb8aa; top: 11px;}
+/*logo及搜索区域*/
+.logo {width: 300px;}
+.logo h1 {width: 82px; height: 54px; background: url(../images/login-sp.png) no-repeat -258px -45px; float: left; }
+.logo h1 a {display: block; width:100%; height: 100%;text-indent: -9999px;}
+.logo .city {float: left; margin-left: 10px;}
+.logo .city h2 {margin-bottom: 5px;}
+.logo .city h2 a {font-size: 18px; color: #000;}
+.logo .change {font-size: 12px; color: #999; border: 1px solid #eee; padding: 2px 5px;}
+.logo .change:hover {color: #2bb8aa;}
+
+.search {width: 490px;}
+.search form {height: 42px;}
+.search-opt {border: 2px solid #2db8ad; border-right: none; width: 63px; height: 38px; overflow: hidden;}
+.search-opt ul {height: 38px;border-right: 1px solid #ddd; text-align: center;}
+.search-opt li {height: 40px; line-height: 40px;}
+.search .input-txt {width: 348px; float: left; outline:none; border: 2px solid #2db8ad; height: 28px; padding: 5px; border-left: none; border-right: none; color: #ccc;}
+.search .search-btn {width: 65px; height: 42px; float: left; background: #2bb8aa; border: none; color: #fff;  cursor: pointer;}
+.search p {margin-top: 10px; clear: both;}
+.search p a {font-size: 12px; color: #666; margin-right: 12px;}
+.search p a:hover {color: #2bb8aa; text-decoration: underline;}
+
+.service {margin-top: 3px;}
+.service span{color: #999; font-size: 12px; margin-left:15px; display: inline-block;padding-top: 25px;}
+.service span.tui {background: url(../images/tui.png) no-repeat center 0; }
+.service span.mian {background: url(../images/manyi.png) no-repeat center 0;}
+.service span.guo {background: url(../images/guoqi.png) no-repeat center 0; }
+
+/*导航部分*/
+.nav {height: 40px; position: relative;}
+.category h2 {width: 231px; padding-left: 15px; height: 40px; background: url(../images/base.png) no-repeat 0 -31px; font-size: 16px; color: #fff; line-height: 40px; font-weight: normal; position: absolute; top: 0;}
+.category .cats {width: 245px; height: 477px; position: absolute; border: 1px solid #eee; border-right: none; background: #fafafa; top: 40px;}
+
+.menu {position: absolute; right: 0; top: 0; width: 100%;}
+.menu ul {margin-left: 246px; background: #2bb8aa; width: auto; height: 40px;}
+.menu li {line-height: 40px; float: left;}
+.menu li a{color: #fff; font-size: 16px; font-weight: bold; display: inline-block; padding: 0 18px; text-align: center;}
+.menu li a:hover {background: #00C3B0;}
+
+
+/*全部分类*/
+.item {border-right: 1px solid #eee;}
+.nav-level1 {padding: 0 10px; padding: 5px 0 4px 5px; border-top: 1px solid #eee; position: relative;}
+.nav-level1 dl {height: 43px; line-height: 43px; margin-right: 20px;width:200px;}
+.nav-level1 dt {float: left;}
+.nav-level1 dd {float: right;}
+.nav-level1 dt a {color: #333; font-size: 14px; font-weight: bold;}
+.nav-level1 dd a {font-size: 12px; color: #999; margin-left: 8px;}
+.nav-level1 dl a:hover {color: #2bb8aa;}
+.nav-level1 .arrow-right { position: absolute; right: 0px; top: 17px; width: 20px; height: 20px; background: url(../images/arrow-right.png) no-repeat 0 0;}
+
+.nav-level2 {position: absolute;left:245px;top: 0px; display: none; height: 461px;border:1px solid #ddd; border-left: none; border-top: none; padding: 16px 10px 0; background: #fff;white-space: nowrap;}
+.nav-level2-item {width: auto; display: inline-block;}
+.nav-level2-item h3 {padding-left: 10px; margin-bottom: 16px;}
+.nav-level2-item h3 a {font-size: 20px; color: #333; font-weight: normal;}
+.nav-level2-item ul {display: inline-block; *display:inline; zoom:1; width:120px; padding-left: 10px; overflow: hidden;vertical-align: top;white-space: nowrap;}
+.nav-level2-item ul li {padding: 1px 0;}
+.nav-level2-item ul a {color: #666; font-size: 12px;}
+
+.nav-level2-item a:hover {color: #2bb8aa;}
+

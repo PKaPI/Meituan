@@ -1,0 +1,58 @@
+/*侧栏样式*/
+.sidebar {float: right; width: 240px;}
+
+/*app下载*/
+.app-dl { padding: 0 20px; border:1px solid #eee; width: 198px; }
+.app-dl .meituan {display: block; width: 198px; height: 112px; border-bottom: 1px dotted #ddd; background: url(../images/mt-sp1.png) no-repeat 0 -303px; text-indent: -9999px;}
+.app-dl .maoyan {display: block; width: 198px; height: 112px; background: url(../images/mt-sp1.png) no-repeat 0 -931px; text-indent: -9999px;}
+
+
+/*猜你喜欢*/
+.guess {padding: 0 20px; border:1px solid #eee; width: 198px;}
+.guess h3 {padding: 13px 0; font-size: 16px; color: #333;}
+.guess .guess-item {border-bottom: 1px dotted #ddd; margin-bottom: 10px;}
+.guess .guess-item-pic {display: block; position: relative;}
+.guess .guess-item-pic img {width: 198px; height: 120px;}
+.guess .guess-item h4 {margin-top: 15px;}
+.guess .guess-item h4 a {font-size: 12px; color: #333;}
+.guess .guess-item h4 a:hover {color: #2bb8aa;}
+.guess .guess-item p {color: #f76120; font-size: 12px;}
+.guess .guess-item p strong {font-weight:bold; font-size: 22px; margin-right: 15px;}
+.guess .guess-item p span {color: #999; margin-right: 2px;}
+.guess .guess-item-pic span {position: absolute; left: 0; top: 0; width: 16px; height: 16px; height: 16px; background: url(../images/mt-sp2.png) no-repeat 0 -209px; text-align: center; line-height: 16px; color: #fff;}
+
+
+/*抽奖*/
+.lottery {width: 238px; height: 156px; border:1px solid #eee; background:url(../images/mt-sp1.png) no-repeat 0 -777px;}
+.lottery a {display: block; text-indent: -9999px; width: 100%; height: 45px;}
+.lottery ul {margin:20px 0 0 80px;}
+.lottery ul li {line-height:24px;color: #999; font-size: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+/*校园招聘*/
+.recruit {width: 238px; border:1px solid #eee;}
+.recruit .school {display: block; width: 238px; height: 120px; background: url(../images/mt-sp1.png) no-repeat 0 -183px; text-indent: -9999px;}
+.recruit div {padding: 0 20px;}
+.recruit .feedback, .recruit .coperation {display: block; padding: 40px 0 10px 40px; color: #666; font-size: 12px;}
+.recruit a:hover {color: #2bb8aa;}
+.recruit .feedback {width: 158px; height:26px;  border-bottom: 1px dotted #ddd; background: url(../images/mt-sp1.png) no-repeat 0 -511px; }
+.recruit .coperation {width: 158px; height:26px;  background: url(../images/mt-sp1.png) no-repeat 0 -91px; margin-bottom: 20px; }
+.recruit .coperation span {display: block; }
+.recruit .coperation:hover span {color: #666;}
+
+/*最近浏览*/
+.history {width:198px; padding: 10px 20px; border:1px solid #eee; }
+.history h3 {font-size: 16px; color: #333; position: relative; padding: 3px 0 0;}
+.history h3 a {position: absolute; right: 0; top: 7px; color: #2bb8aa; font-size: 12px; font-weight: normal;}
+.history li {border-bottom: 1px dotted #ddd; padding: 15px 0; font-size: 12px; color: #666;overflow: hidden;}
+.history li img {width: 80px; height: 50px; margin-right: 10px; float: left;}
+.history li h5{ height: 32px; line-height: 15px;}
+.history li h5 a{color: #666; font-weight: normal; }
+.history li p {padding-top: 2px; color: #999;}
+.history li p strong {color: #f76120; font-weight: bold;}
+
+/**/
+.question {width: 198px; padding: 10px 20px; border: 1px solid #eee;  }
+.question h3 {font-size: 16px; color: #333; margin-bottom: 10px;}
+.question p {background: url(../images/question.png) no-repeat 0 4px; padding-left: 12px; color: #ccc;}
+.question p a {color: #2bb8aa; padding:0 5px;}
+.question p a:hover {text-decoration: underline;}

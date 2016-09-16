@@ -1,0 +1,54 @@
+/*订单中心css*/
+
+/*左侧导航*/
+.side-nav {width: 159px; border:1px solid #eee; border-right: none; background: #f9f9f9;}
+.side-nav h2 {line-height: 45px; border-bottom: 1px solid #eee; position: relative;}
+.side-nav h2 i { position: absolute; width: 3px; height: 3px; left: 20px; top: 20px; background: url(../images/order-bg.png) no-repeat 0 -16px;}
+.side-nav h2 a {display: block; padding-left: 30px; font-size: 14px; color: #666;}
+.side-nav dl {border-bottom: 1px solid #eee;}
+.side-nav dt {color: #666; font-size: 14px; font-weight: bold; line-height: 30px; padding-left: 30px;}
+.side-nav dd a{color: #666; display: block; line-height: 30px; padding-left: 30px; font-size: 12px; position: relative;}
+.side-nav dd i {position: absolute; width: 3px; height: 3px; left: 22px; top: 13px; background: url(../images/order-bg.png) no-repeat 0 -22px;}
+.side-nav dd a:hover {color: #2bb8aa;}
+.side-nav dd a:hover i {background-position: 0 -16px;}
+.side-nav dd .badge {display: inline-block; margin-left:7px; background: #f76120; color: #fff; font-weight: bold; width: 22px; height: 16px; line-height: 16px; text-align: center; border-radius: 2em;}
+.side-nav dd.cur a {background: #2bb8aa; color: #fff;}
+
+.side-nav dd.cur b {position: absolute; width: 5px; height: 10px; right: 20px; top: 13px; background: url(../images/order-bg.png) no-repeat 0 0;}
+
+/*右侧主体内容*/
+.content {width: 778px; overflow: hidden; border:1px solid #eee; padding: 20px; }
+
+.content .order-filter select {float: left; font-size: 12px; color: #666;}
+.content .order-filter p {float: left; margin-left: 30px; color: #999; font-size: 12px;}
+.content .order-filter p a {color: #f76120; margin: 0 0 0 10px;}
+.content .order-filter p a:hover {text-decoration: underline;}
+
+.content .list-title {line-height: 32px; border-top: 1px solid #eee; background: #f9f9f9; color: #999; font-size: 12px; overflow: hidden;}
+.content .list-title div {}
+.content .order-info {width: 335px;float: left;text-align: center; }
+.content .order-number {width: 54px;float: left;text-align: center; }
+.content .order-money {width: 85px;float: left; text-align: center;}
+.content .order-status {width: 193px;float: left;text-align: center; }
+.content .order-op {width: 110px;float: left; text-align: center;}
+
+.content .order-item {font-size: 12px; color: #999; margin-top: 15px;}
+.content .order-title a {color: #999;}
+.content .order-title a:hover {text-decoration: underline;}
+.content .order-title .delete {float: right; }
+.content .order-title i{ display: inline-block; *display: inline; zoom: 1; margin-right:2px;width: 11px; height: 12px; background:url(../images/delete-btn-bg.png) no-repeat 0 -12px;}
+.content .order-title .delete:hover {text-decoration: none; color: #2bb8aa;}
+.content .order-title .delete:hover i {background-position: 0 1px ;}
+
+.content .order-detail {background: #f9f9f9; border: 1px solid #eee; border-left: 0; border-right: 0; margin-top: 5px; padding: 15px 0; overflow: hidden; color: #666;}
+
+.content .order-detail .thumb { float: left; margin-left: 20px;}
+.content .order-detail .thumb img {width: 80px; height: 50px;}
+.content .order-detail .order-info div {float: left; text-align: left; margin-left: 20px; color: #999;}
+.content .order-detail .order-info a {color: #2bb8aa;}
+.content .order-detail .order-info h4 a {color: #666; font-weight: normal;}
+.content .order-detail .order-info h4 a:hover {color: #2bb8aa;}
+
+.content .order-detail .order-status a{color: #2bb8aa; display: block;}
+.content .order-detail .pay-btn {background: #f76120; color: #fff; display: inline-block; *display: inline; zoom: 1; width: 65px; padding: 2px 0;}
+.content .order-detail .review-btn {color: #2bb8aa;}

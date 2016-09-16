@@ -1,0 +1,37 @@
+/*通用css*/
+
+/*字体*/
+body {font:400 14px/1.5 tahoma,sans-serif; color: #666;}
+a:hover {text-decoration: none;}
+/*颜色*/
+.seagreen{color: #2bb8aa;}
+.red {color: #f76120;}
+.orange {color: #ff8e3f;}
+.deepgray {color: #333;}
+.shallowgray {color: #999;}
+
+/*宽度*/
+.w1170 {width: 1170px; margin: 0 auto;}
+.w980 {width: 980px; margin: 0 auto;}
+
+.fl {float: left; display: inline;}
+.fr {float: right; display: inline;}
+
+/*边距*/
+.mt10 {margin-top: 10px;}
+.mt15 {margin-top: 15px;}
+.mt20 {margin-top: 20px;}
+.mb10 {margin-top: 10px;}
+.mb15 {margin-top: 15px;}
+.mb20 {margin-top: 20px;}
+
+/*补白*/
+.pt10 {padding-top: 10px;}
+.pt15 {padding-top: 15px;}
+.pt20 {padding-top: 20px;}
+.pb10 {padding-top: 10px;}
+.pb15 {padding-top: 15px;}
+.pb20 {padding-top: 20px;}
+
+/*清除浮动*/
+.clear {clear: both;}

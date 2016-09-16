@@ -1,0 +1,139 @@
+/*团购详情页面css*/
+
+.bread-nav {font-size: 12px;}
+.bread-nav a {color: #666; font-size: 12px;}
+.bread-nav span {margin:0 5px; }
+.bread-nav a:hover {color: #2bb8aa; text-decoration: underline;}
+
+/*购买区域*/
+.purchase{ border-top: 1px solid #eee; padding-top: 5px;  }
+.purchase h1{color: #333; font-size: 28px; margin-left: -0.5em;}
+.purchase .purchase-hd p {color: #666; font-size: 16px; line-height: 24px;}
+
+.purchase .gallery { width: 460px;  }
+.purchase .buy {width: 500px; margin-left: 20px;}
+
+.purchase .gallery .cover {width: 460px; height: 280px; position: relative;}
+.purchase .gallery .quan {position: absolute; left: 10px; top: -3px; width: 43px; height: 40px; background: url(../images/base.png) no-repeat 0 -619px ; text-indent: -9999px;}
+.purchase .gallery .prev,.purchase .gallery .next { position: absolute; top: 50%; left: 0; }
+.purchase .gallery ul {margin: 10px -10px 0 0; overflow: hidden;}
+.purchase .gallery li {float: left; margin-right: 10px;}
+.purchase .gallery li img {width: 78px; height: 45px; padding: 2px; border:1px solid #eee; cursor: pointer;}
+.purchase .gallery li.cur img {border:1px solid #2bb8aa;}
+
+.purchase .buy {font-size: 12px; color: #666;}
+.purchase .buy .label {color: #999; width: 60px; float: left; display: inline; padding-left: 10px;}
+.purchase .price .label {line-height: 51px; height: 51px; }
+.purchase .price h3 {display: inline-block; *display:inline;zoom: 1; color: #f76120; font-weight: normal;margin-right: 10px;}
+.purchase .price h3 span {font-size: 18px; vertical-align: top; display: inline-block; margin-top: 12px;}
+.purchase .price h3 strong {font-size: 34px; font-weight: bold;}
+.purchase .price .default {font-size: 14px;}
+
+.purchase .evaluate {border:1px solid #eee; border-left: none; border-right: none; padding: 10px; margin-top: 10px; text-align: center; overflow: hidden;}
+.purchase .evaluate span {width: 33%; float: left; border-right: 1px solid #eee;}
+.purchase .evaluate strong {color: #f76120; }
+.purchase .expire {line-height: 30px; margin-top: 15px;}
+
+.purchase form {margin-top: 10px;}
+.purchase form button { display: inline-block; font-size: 18px; color: #333; background: #eee; cursor: pointer; border:1px solid #ddd; padding-bottom: 3px; height: 34px;vertical-align: middle; width: 24px; text-align: center; }
+.purchase form .quality-input{width: 40px; height: 32px; line-height: 32px; border:1px solid #ddd; border-left: none; border-right: none; text-align: center; font-size: 14px;vertical-align: middle;}
+.purchase form .btn-minus {border-right-style: dotted;}
+.purchase form .btn-add {border-left-style: dotted;}
+
+.purchase form .buy-btn { margin: 20px 0 0 70px; overflow: hidden;  *display:inline;zoom: 1;}
+.purchase form .btn-submit {width: 169px; height: 50px; float: left; color: #fff; border:none; background: url(../images/mt-sp5.png) no-repeat 0 -343px; font-size: 0; margin-right: 10px; cursor: pointer ;}
+.purchase form .add-cart { float: left; width: 62px; height: 48px; border:1px solid #e3e3e3; background: url(../images/mt-sp5.png) no-repeat 0 -396px; font-size: 0;}
+.purchase form .sbtn {float: left; line-height: 50px; margin-left: 15px; color: #666; padding-left: 20px; white-space: nowrap;}
+.purchase form .collect {background: url(../images/collect-ico.png) no-repeat 0 15px;} 
+.purchase form .share {background: url(../images/share-ico.png) no-repeat 0 15px;} 
+
+.purchase .promise {margin-top: 15px; border-top: 1px solid #eee; padding-top: 20px;}
+.purchase .promise a {color: #666; margin-right: 20px; padding-left: 23px; }
+.purchase .promise a:hover {color: #2bb8aa;}
+
+.purchase .promise .sui {background: url(../images/sui-ico.png) no-repeat 0 -2px;}
+.purchase .promise .guo {background: url(../images/guo-ico.png) no-repeat 0 -2px;}
+.purchase .promise .ji {background: url(../images/ji-ico.png) no-repeat 0 -2px;}
+.purchase .promise .evalute {background: url(../images/evaluate-ico.png) no-repeat 0 -2px; padding-left: 23px;}
+
+
+.tuan-detail {width: 700px;}
+/*该商家的其它团购*/
+.other-tuan {border-top: 1px solid #eee; }
+.other-tuan h3 {border-bottom: 2px solid #bbb; padding: 20px 0 10px; font-size: 18px; color: #333; position:relative;}
+.other-tuan h3 p {position: absolute; top: 25px; right: 5px; color: #666; font-size: 14px;}
+.other-tuan h3 p span { float: right; width: 80px; text-align: right;}
+.other-tuan li a{ display: block; position: relative; line-height: 36px; height: 36px; border-bottom: 1px solid #f6f6f6; padding-right:5px; color: font-size:14px; color: #666;}
+.other-tuan .saled-num {position: absolute; top: 0; right: 5px; display: block; width: 80px; text-align: right; }
+.other-tuan .store-price {position: absolute; top: 0; right: 85px; display: block; width: 80px; text-align: right; }
+.other-tuan .price {position: absolute; top: 0; right: 165px; display: block; width: 80px; text-align: center; color: #f76120; font-weight: bold; }
+.other-tuan li a:hover {color: #2bb8aa; background: #f9f9f9;}
+
+.tuan-detail h2 {border-bottom: 2px solid #bbb; padding: 20px 0 10px; font-size: 18px; color: #333;}
+.tuan-detail .title-bar {margin: 10px 0; line-height: 36px; background: #eee; padding: 0 6px; border-left: 4px solid #2bb8aa; color: #333; font-size: 16px; font-weight: bold;}
+
+/*详情导航*/
+.detail-navbar{border:1px solid #eee; background: #f9f9f9; height: 41px; line-height: 41px; overflow: hidden; margin-top: 30px;}
+.detail-navbar ul {margin-right: -2px;}
+.detail-navbar li {width: 139px; float: left; border-right: 1px solid #eee; text-align: center;}
+.detail-navbar li a {display: block; color: #666; font-size: 14px;}
+.detail-navbar li.cur a{background: #2bb8aa; color: #fff; font-weight: bold;}
+
+
+/*购买须知*/
+.buy-known table {width: 100%;}
+.buy-known tr {border-bottom:1px solid #eee;}
+.buy-known th {width: 20%; padding-left: 10px; border-right: 1px solid #eee; text-align: left; background: #f9f9f9; color: #666; line-height: 45px;}
+.buy-known td {padding-left: 10px; white-space: pre-wrap;}
+
+/*本单详情*/
+.detail table {width: 100%; font-size: 14px;}
+.detail table thead {background: #f0f0f0; line-height: 36px; }
+
+.detail .col1 {text-align: left; padding-left: 10px;}
+.detail .col2 {width: 15%;text-align: center;}
+.detail .col3 {width: 15%;text-align: center;}
+.detail .col4 {width: 15%; text-align: right; padding-right: 10px;}
+
+.detail tbody tr {line-height: 35px; border-bottom: 1px dotted #eee;}
+.detail tfoot tr {text-align: right; line-height: 45px; border-bottom: 1px solid #eee; }
+.detail tfoot span {margin-right: 20px;}
+.detail tfoot strong {color: #f76120; font-weight: bold;padding-right: 10px; font-size: 16px;}
+.detail ul {margin:10px 0 15px; padding-left: 12px;}
+.detail li{line-height: 30px;  list-style: disc; font-size: 14px;}
+
+/*商家介绍*/
+.biz-intro p {margin: 10px 0;}
+
+/*商家评价*/
+.review h2 span {float: right; font-size: 12px;}
+.review h2 a {color: #2bb8aa;}
+.review h2 a:hover {text-decoration: underline;}
+
+.review-labels {overflow: hidden;}
+.review-labels .label-title {float: left; font-size: 12px; width: 90px;}
+.review-labels .labels {float: left; width: 600px;}
+.review-labels .labels a {display: inline-block; zoom:1; line-height: 22px; font-size: 12px; padding: 0 5px; border:2px solid #ffebd7; color: #FA5D2F; margin:0 0 5px 1px;}
+.review-labels .labels a:hover {border-color: #FA5D2F;}
+.review-labels .labels a.bad {color: #666; border-color: #eee;}
+.review-labels .labels a.bad:hover {border-color: #999;}
+
+.review-list {overflow: hidden; font-size: 12px;}
+.review-list .review-list-filter{background: #f9f9f9; overflow: hidden; line-height: 32px; position: relative;}
+.review-list .review-list-filter li {float: left; border-right: 1px solid #eee; }
+.review-list .review-list-filter li a {display: block; width: 95px; text-align: center; font-size: 12px; color: #666;}
+.review-list .review-list-filter li.cur a,.review-list .review-list-filter li a:hover {background: #eee;}
+.review-list .review-list-filter select {position: absolute; right: 5px; top: 5px; font-size: 12px;}
+
+.review-list .review-list-content {overflow: hidden; margin-top: 15px;}
+
+.review-list .review-list-content li{border-bottom: 1px dotted #ddd; overflow: hidden; padding-bottom: 15px; margin-top: 15px;}
+.review-list .user-info {width:90px; float: left; margin-right: 10px; text-align: center;}
+.review-list .user-info img{width: 50px; height: 50px;}
+.review-list .username {color: #f76120; font-size: 12px;}
+
+.review-list .content-wrapper {width: 600px; float:left; overflow: hidden;}
+.review-list .content-desc li{ display: inline-block; *display: inline; zoom:1;width: 100px; height: 100px; margin-right: 10px; border:none;}
+.review-list .content-desc li a {display: block;}
+.review-list .content-desc li img {width: 100px; height: 100px;}
+.review-list .content-desc a{color: #f76120; font-weight: bold;}

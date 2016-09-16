@@ -1,0 +1,90 @@
+/*首页css*/
+.colligate .main{width: 689px; height: 477px; margin-left: 266px; }
+.colligate .side {width: 200px;}
+.colligate .side div {border: 1px solid #eee; border-top: none; text-align: center;}
+
+.quick-nav dl {clear: both; padding: 15px 0 10px; height: 25px; line-height: 25px; border-bottom: 1px solid #eee; overflow: hidden;font-size: 12px;}
+.quick-nav dt{ float: left;color: #999; margin-right: 10px;}
+.quick-nav dd {float: left; margin: 0 11px;}
+.quick-nav dd a{color: #666; }
+.quick-nav .hot-tuan {background: url(../images/hot.png) no-repeat 0 18px; padding-left: 20px; }
+.quick-nav .all-area {background: url(../images/area.png) no-repeat 0 18px; padding-left: 20px; }
+.quick-nav .hot-business {background: url(../images/business.png) no-repeat 0 18px; padding-left: 20px; }
+
+/*幻灯效果*/
+.slide {width: 689px; height: 325px; overflow: hidden; border-bottom: 1px solid #eee;}
+.slide li {margin-right: -10px; *zoom:1; _position: relative;}
+.slide li div {float: left; width: 333px; height: 315px; padding-right: 10px; padding-top: 15px; border-right: 1px solid #eee;}
+.slide div img {width: 333px; height: 232px;}
+.slide dl {float: left; margin-top: 20px; border-right: 1px dotted #eee; padding-right: 20px;}
+.slide div span {float: right; font-size: 30px; color: #f76120; margin-top: 16px;}
+.slide dt a {color: #666; font-weight: bold;}
+.slide dd {color: #999;font-size: 12px; margin-top: 5px;}
+
+.mobile-tuan {height: 158px;}
+.tuesday {height: 279px; padding-top: 40px;}
+.tuesday h3 {font-size: 24px; color: #333;  font-weight: normal;}
+.tuesday p {color: #999; font-size: 14px; line-height: 30px;}
+    
+/*名店抢购*/
+.famous-shop .title h2 {float: left;}
+.famous-shop .title h2 a{ display: inline-block; height: 40px; line-height: 40px; font-size: 20px; color: #666;font-weight: normal; background: url(../images/clock.png) no-repeat 0 0; padding-left: 35px; }
+.famous-shop .timer {float:left; display: inline; border: 1px solid #eee; padding: 6px 5px; border-radius: 3px; position: relative; margin-left: 15px;}
+.famous-shop .status {float:left;width: 49px; height: 28px; line-height: 28px; background: url(../images/start.png) no-repeat 0 0; text-indent: -9999px; margin-right: 10px;}
+.famous-shop .time {}
+.famous-shop .time strong {float:left; width: 20px; height: 28px; text-align: center; line-height: 28px; color: #fff; background: url(../images/time-bg.png) no-repeat 0 0;  font-size: 18px; font-weight: 400;margin: 0 2px;}
+.famous-shop .colon {float:left; width: 2px; height: 11px; position: relative; top:8px;text-indent: -9999px; background: url(../images/time-colon.png) no-repeat 0 0; margin: 0 5px;}
+
+.famous-shop .arrow-left {position: absolute; width: 0; height: 0; border: 6px dashed transparent; border-right: 6px dashed #eee; left: -12px; top: 12px;}
+.famous-shop .arrow-inner {position: absolute; width: 0; height: 0; border: 5px dashed transparent; border-right: 5px dashed #fff; left: -4px; top: -5px;}
+    
+.container {width: 1168px; border: 1px solid #eee; overflow: hidden;}
+.container .screen {width: 1168px; height: 260px;}
+.container .screen ul {margin-right: -2px; overflow: hidden;}
+.container .screen li {width: 218px; border-right: 1px solid #eee;float: left; height: 245px; padding: 15px 0 0 15px;}
+.container .screen li img {width: 205px; height: 124px;}
+.container .screen h3 {margin-top: 10px; width: 205px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.container .screen .caption {font-size: 14px; color: #666; position: relative; left: -7px;}
+.container .screen p {width: 205px; margin-top: 8px;}
+.container .screen .sale {float: right; font-size: 12px; color: #999;}
+.container .screen .price {font-size: 16px; color: #f76120;}
+.container .screen div {width: 205px; border-top: 1px dotted #eee; margin-top: 10px;  padding-top: 10px;}
+.container .screen .discount {background: #f76120; color: #fff; padding: 0 3px; font-size: 12px;}
+
+
+/*美食、娱乐、电影、酒店等各栏目 */
+.section {overflow: hidden;}
+.section .title h2 {float: left;}
+.section .title h2 a{ display: inline-block; height: 30px; line-height: 30px; font-size: 20px; color: #666;font-weight: normal; background: url(../images/food-title.png) no-repeat 0 0; padding-left: 45px; }
+.section .title .cat {float: right; margin-right: -2px; ;}
+.section .title .cat li {float: left;}
+.section .title .cat a {font-size: 14px; color: #666; padding: 0 10px; border-right: 1px solid #eee;}
+.section .title .cat a:hover {color: #2bb8aa;}
+    
+.section .container {width: 1168px; border: 1px solid #eee; border-bottom: none; margin-top:15px; margin-bottom:-1px;overflow: hidden ;}
+
+.section .container ul {margin-right: -10px;*zoom:1;_position:relative;}
+.section .container li {width: 262px; color: #999; float: left; height: 312px; padding: 15px 15px 0 15px; border-right: 1px solid #eee; border-bottom: 1px solid #eee;}
+
+.section .container li img {width: 260px; height: 164px;} 
+.section .container h3 {margin-top: 10px; width: 262px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.section .container .caption {font-size: 14px; color: #666; position: relative; left: -7px; display: block;}
+.section .container .summary {color: #999; font-weight: normal;}
+.section .container h3 a:hover span{color: #333;}
+.section .container p {width: 262px; margin-top: 8px;}
+.section .container .sale {float: right; font-size: 12px; color: #999; margin-top: 8px;}
+.section .container .price {font-size: 20px; color: #f76120;}
+.section .container .store {font-size: 12px;}
+.section .container div {width: 262px; border-top: 1px dotted #eee; margin-top: 10px;  padding-top: 10px;}
+.section .container .discount {background: #f76120; color: #fff; padding: 0 3px; font-size: 12px;}
+.section .container .evaluate {float: right; font-size: 12px; color: #999;}
+
+.section .more {height: 48px;background: #f6f6f6;
+}
+.section .more a {display: block;  text-align:center; font-size:14px; color:#666; line-height: 48px;}
+.section .more a:hover {color:#2bb8aa;}
+    
+    
+    
+
+
